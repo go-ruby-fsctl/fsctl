@@ -1,0 +1,68 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  CGO_ENABLED: "0"
+  GOWORK: "off"
+
+# Track the latest stable Go (org convention). go.mod floor is 1.26.4.
+jobs:
+  # The go-fsctl kernel operations exist only on Linux, so Linux is where the
+  # real wrapped code lives: this job vets, tests, and enforces the 100%
+  # coverage gate. It is authoritative for coverage.
+  test:
+    name: test (linux)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v6
+        with:
+          go-version: stable
+      - run: go version
+      - run: go vet ./...
+      - run: go build ./...
+      - name: Test + 100% coverage gate
+        shell: bash
+        run: |
+          COVERPKG=$(go list ./... | paste -sd, -)
+          go test -covermode=set -coverpkg="$COVERPKG" -coverprofile=cover.out ./...
+          go tool cover -func=cover.out | tail -n 40
+          cov=$(go tool cover -func=cover.out | tail -1 | awk '{print $3}' | tr -d '%')
+          echo "coverage: ${cov}%"
+          awk -v t="$cov" 'BEGIN { exit !(t+0 >= 100.0) }' || {
+            echo "::error::coverage ${cov}% < 100%"; exit 1; }
+
+  # Build the six supported Linux 64-bit architectures (where the real ioctl
+  # methods compile) and, for darwin/{amd64,arm64} and windows/amd64, build the
+  # non-Linux stub path so the Session/Call surface still compiles everywhere.
+  cross-build:
+    name: build ${{ matrix.goos }}/${{ matrix.goarch }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { goos: linux,   goarch: amd64 }
+          - { goos: linux,   goarch: arm64 }
+          - { goos: linux,   goarch: riscv64 }
+          - { goos: linux,   goarch: ppc64le }
+          - { goos: linux,   goarch: s390x }
+          - { goos: linux,   goarch: loong64 }
+          - { goos: darwin,  goarch: amd64 }
+          - { goos: darwin,  goarch: arm64 }
+          - { goos: windows, goarch: amd64 }
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v6
+        with:
+          go-version: stable
+      - name: go build (${{ matrix.goos }}/${{ matrix.goarch }})
+        run: GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} go build ./...
