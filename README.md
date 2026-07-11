@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/go-ruby-fsctl/brand/main/social/go-ruby-fsctl.png" alt="go-ruby-fsctl/fsctl" width="720"></p>
+
 # go-ruby-fsctl/fsctl
 
 [![ci](https://github.com/go-ruby-fsctl/fsctl/actions/workflows/ci.yml/badge.svg)](https://github.com/go-ruby-fsctl/fsctl/actions/workflows/ci.yml)
