@@ -5,7 +5,7 @@ go 1.26.4
 require (
 	github.com/go-fsctl/btrfs v0.0.0-20260806070239-60c1450e9021
 	github.com/go-fsctl/dm v0.0.0-20260702210211-c5ff7577c12d
-	github.com/go-fsctl/loop v0.0.0-20260702210214-4889c7190b92
+	github.com/go-fsctl/loop v0.0.0-20260806070242-8bbd0c43e1ed
 	github.com/go-fsctl/zfs v0.0.0-20260707161021-1505f636d4ef
 )
 
