@@ -6,7 +6,7 @@ require (
 	github.com/go-fsctl/btrfs v0.0.0-20260806070239-60c1450e9021
 	github.com/go-fsctl/dm v0.0.0-20260806070235-e9df0772d6f9
 	github.com/go-fsctl/loop v0.0.0-20260806070242-8bbd0c43e1ed
-	github.com/go-fsctl/zfs v0.0.0-20260707161021-1505f636d4ef
+	github.com/go-fsctl/zfs v0.0.0-20260806070246-7c62789d6585
 )
 
 require golang.org/x/sys v0.46.0 // indirect
