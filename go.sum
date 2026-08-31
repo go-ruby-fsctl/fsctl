@@ -18,5 +18,9 @@ github.com/go-fsctl/zfs v0.0.0-20260806070246-7c62789d6585 h1:sQ0iQ78LUY8Sai0lhN
 github.com/go-fsctl/zfs v0.0.0-20260806070246-7c62789d6585/go.mod h1:7LSMp8XMhqChDZw/Q+mUTEwORsawiepLmaeleC/y9R0=
 github.com/go-fsctl/zfs v0.0.0-20260830075724-9dfb3e345775 h1:oDZ7pOTh+LBHcJlYItu/aRXsu5DCvFk3HLbrXTAj1+o=
 github.com/go-fsctl/zfs v0.0.0-20260830075724-9dfb3e345775/go.mod h1:7LSMp8XMhqChDZw/Q+mUTEwORsawiepLmaeleC/y9R0=
+github.com/go-fsctl/zfs v0.0.0-20260830211411-89fb77ce4db8 h1:Qvc9Orzwz7Cg4oiGI+BI7m6LjOGKzAaQq25DtxMYZOE=
+github.com/go-fsctl/zfs v0.0.0-20260830211411-89fb77ce4db8/go.mod h1:zJyAGD+Gqwc2xmmieODQ4sPqxs5zHOdFWnu/1bkv11I=
 golang.org/x/sys v0.46.0 h1:noSf2Fq6F8DBgS+LysIkx7rIExoNHJsxOAtPp4rthXw=
 golang.org/x/sys v0.46.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
+golang.org/x/sys v0.47.0 h1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs=
+golang.org/x/sys v0.47.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
