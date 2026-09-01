@@ -14,6 +14,8 @@ github.com/go-fsctl/loop v0.0.0-20260702210214-4889c7190b92 h1:KYzaIZBJ+uIDBeuAD
 github.com/go-fsctl/loop v0.0.0-20260702210214-4889c7190b92/go.mod h1:vn2fngt1uRUNGbsJpXwla05DVEjWDvuNcT9KkOmnoaU=
 github.com/go-fsctl/loop v0.0.0-20260806070242-8bbd0c43e1ed h1:HPpJJdonl7ewAJOEFrxtyi4xm35Gv84sXsJ8ZdwurRg=
 github.com/go-fsctl/loop v0.0.0-20260806070242-8bbd0c43e1ed/go.mod h1:j9SxnrRpg004obPsD8PXTcU5m/JDPcFwY582ikxQKqw=
+github.com/go-fsctl/loop v0.0.0-20260830212336-d5c695ab8c2c h1:wRAZqYDU/xNcqw5fCK3baX0eCgcpR5w6WLr0jjdoCHs=
+github.com/go-fsctl/loop v0.0.0-20260830212336-d5c695ab8c2c/go.mod h1:NsmO52BTAjiWFKKQUJj/6RXNhVBBRCmktdTXAot2kT0=
 github.com/go-fsctl/zfs v0.0.0-20260707161021-1505f636d4ef h1:2MnsD/jO+Z5Oe2KhLD1murDkpS44f88fgtcYtx8uYUQ=
 github.com/go-fsctl/zfs v0.0.0-20260707161021-1505f636d4ef/go.mod h1:49SzOlhqPKNI3sinVDSUqGt9RTpqv9WyR4bZIpHMWbE=
 github.com/go-fsctl/zfs v0.0.0-20260806070246-7c62789d6585 h1:sQ0iQ78LUY8Sai0lhNNhkDaQtv2uvnhmvJvoMmVWSUI=
