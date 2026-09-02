@@ -10,6 +10,8 @@ github.com/go-fsctl/dm v0.0.0-20260702210211-c5ff7577c12d h1:o9P+jLFwZRC1GWOjqGY
 github.com/go-fsctl/dm v0.0.0-20260702210211-c5ff7577c12d/go.mod h1:PLjBnxV9sz37dHhesjZb4GXzbWwJXEbWBhZMPwwyu00=
 github.com/go-fsctl/dm v0.0.0-20260806070235-e9df0772d6f9 h1:KVVqgVi4iyWwc+P10/kSYRFv6XYiGEgpCzv2PYhSM1s=
 github.com/go-fsctl/dm v0.0.0-20260806070235-e9df0772d6f9/go.mod h1:1nBB0lU1Ba9VxsmtNTzcxkpnpl2UF9BjmGe1eU9f6dw=
+github.com/go-fsctl/dm v0.0.0-20260831064100-63c9cb0e12b5 h1:Vbn47xSFUhjPC9QkWf+pJ4z+m9C391KKlLhxQl1mqYk=
+github.com/go-fsctl/dm v0.0.0-20260831064100-63c9cb0e12b5/go.mod h1:PO8a/oNkzH+86AE40awvkJV52a9WQdAxFMRmKOtQehk=
 github.com/go-fsctl/loop v0.0.0-20260702210214-4889c7190b92 h1:KYzaIZBJ+uIDBeuAD2qvkb/Mwy1giM7Y4AM39q4x0Qw=
 github.com/go-fsctl/loop v0.0.0-20260702210214-4889c7190b92/go.mod h1:vn2fngt1uRUNGbsJpXwla05DVEjWDvuNcT9KkOmnoaU=
 github.com/go-fsctl/loop v0.0.0-20260806070242-8bbd0c43e1ed h1:HPpJJdonl7ewAJOEFrxtyi4xm35Gv84sXsJ8ZdwurRg=
