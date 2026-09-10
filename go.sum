@@ -12,6 +12,8 @@ github.com/go-fsctl/dm v0.0.0-20260806070235-e9df0772d6f9 h1:KVVqgVi4iyWwc+P10/k
 github.com/go-fsctl/dm v0.0.0-20260806070235-e9df0772d6f9/go.mod h1:1nBB0lU1Ba9VxsmtNTzcxkpnpl2UF9BjmGe1eU9f6dw=
 github.com/go-fsctl/dm v0.0.0-20260831064100-63c9cb0e12b5 h1:Vbn47xSFUhjPC9QkWf+pJ4z+m9C391KKlLhxQl1mqYk=
 github.com/go-fsctl/dm v0.0.0-20260831064100-63c9cb0e12b5/go.mod h1:PO8a/oNkzH+86AE40awvkJV52a9WQdAxFMRmKOtQehk=
+github.com/go-fsctl/dm v0.0.0-20260909205545-f96e572169b1 h1:Vn3lqFoJQvwR5BQTH9bp/X0tl1iHSk/jL5k7OKENfzo=
+github.com/go-fsctl/dm v0.0.0-20260909205545-f96e572169b1/go.mod h1:9TspL+PVPjFOl3vgmEufQxd3KLO+sQIkXrptazQe6Hk=
 github.com/go-fsctl/loop v0.0.0-20260702210214-4889c7190b92 h1:KYzaIZBJ+uIDBeuAD2qvkb/Mwy1giM7Y4AM39q4x0Qw=
 github.com/go-fsctl/loop v0.0.0-20260702210214-4889c7190b92/go.mod h1:vn2fngt1uRUNGbsJpXwla05DVEjWDvuNcT9KkOmnoaU=
 github.com/go-fsctl/loop v0.0.0-20260806070242-8bbd0c43e1ed h1:HPpJJdonl7ewAJOEFrxtyi4xm35Gv84sXsJ8ZdwurRg=
@@ -30,3 +32,5 @@ golang.org/x/sys v0.46.0 h1:noSf2Fq6F8DBgS+LysIkx7rIExoNHJsxOAtPp4rthXw=
 golang.org/x/sys v0.46.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
 golang.org/x/sys v0.47.0 h1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs=
 golang.org/x/sys v0.47.0/go.mod h1:4GL1E5IUh+htKOUEOaiffhrAeqysfVGipDYzABqnCmw=
+golang.org/x/sys v0.48.0 h1:bbX/i/6MgT9BVLM9RT1thmxL04yeTAhbEz4SyadbXoo=
+golang.org/x/sys v0.48.0/go.mod h1:hNLxWAXmnKAxqDtdwIYC4bM9oQPEecfsnNMuSxOs3og=
