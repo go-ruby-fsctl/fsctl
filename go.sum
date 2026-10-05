@@ -1,5 +1,7 @@
 github.com/go-fsctl/btrfs v0.0.0-20260909205515-af013b8059d4 h1:DA1p9jA+kq7LqOCiI2sSurR+K5ka+aLKELd0DQ8FlGI=
 github.com/go-fsctl/btrfs v0.0.0-20260909205515-af013b8059d4/go.mod h1:dfqRswSVk6xBrJ5DjnYv1lVZ2bIkgMPz+wKMJPkq23k=
+github.com/go-fsctl/btrfs v0.0.0-20261004233900-9758e512141f h1:yUWrPAkIJjbDtXs5/oiS4dOmUbSr+R2jwh7KhFapE7A=
+github.com/go-fsctl/btrfs v0.0.0-20261004233900-9758e512141f/go.mod h1:hVrQIg03V/EojEboquU3+2dbn+KlyJ6CEtOTUXbVIvE=
 github.com/go-fsctl/dm v0.0.0-20260909205545-f96e572169b1 h1:Vn3lqFoJQvwR5BQTH9bp/X0tl1iHSk/jL5k7OKENfzo=
 github.com/go-fsctl/dm v0.0.0-20260909205545-f96e572169b1/go.mod h1:9TspL+PVPjFOl3vgmEufQxd3KLO+sQIkXrptazQe6Hk=
 github.com/go-fsctl/loop v0.0.0-20260909205613-f44229906a8d h1:HihctPbk65zbbW8pkZkDcKj7Eu/1MOYhnD2g6YRjV4U=
