@@ -1,6 +1,6 @@
 module github.com/go-ruby-fsctl/fsctl
 
-go 1.26.4
+go 1.27.1
 
 require (
 	github.com/go-fsctl/btrfs v0.0.0-20260909205515-af013b8059d4
