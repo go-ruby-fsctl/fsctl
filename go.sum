@@ -6,5 +6,7 @@ github.com/go-fsctl/loop v0.0.0-20260909205613-f44229906a8d h1:HihctPbk65zbbW8pk
 github.com/go-fsctl/loop v0.0.0-20260909205613-f44229906a8d/go.mod h1:BtosLDpcA7GM/QXzFJdQMKLdk4JRp4SoR/wAaTvvw3w=
 github.com/go-fsctl/zfs v0.0.0-20260909205632-555236126cd6 h1:eThAsCwLeoM0kmHyvslv2jbtriqX/8cE1AtnuV99XHI=
 github.com/go-fsctl/zfs v0.0.0-20260909205632-555236126cd6/go.mod h1:s963JBakRrdhCaD1Syi+NWjC01A71KBbe3DnsC3x18I=
+github.com/go-fsctl/zfs v0.1.1 h1:JLBXypN1Mu/fTwtL9a6E1xeseP9dzaranW9Z842OTgc=
+github.com/go-fsctl/zfs v0.1.1/go.mod h1:s4GQwY2JUSKljp/m76JJwZ0H0PyYHPlDbaaZBfhADRE=
 golang.org/x/sys v0.48.0 h1:bbX/i/6MgT9BVLM9RT1thmxL04yeTAhbEz4SyadbXoo=
 golang.org/x/sys v0.48.0/go.mod h1:hNLxWAXmnKAxqDtdwIYC4bM9oQPEecfsnNMuSxOs3og=
